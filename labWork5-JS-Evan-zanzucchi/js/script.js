@@ -9,20 +9,27 @@ function userForm() {
   var MemberShip = document.querySelector(
     'input[name="membership"]:checked'
   ).value;
+ value;
   outputDiv.innerHTML =
-    "FirstName" +
+    "FirstName : " +
+    FirstName +
     "<br>" +
+    "Last Name : " +
     LastName +
     "<br>" +
+    "Email Address : " +
     EmailAddress +
     "<br>" +
+    "Address : " +
     Address +
     "<br>" +
+    "City : " +
     City +
     "<br>" +
+    "Province : " +
     Province +
     "<br>" +
-    MemberShip;
+    MemberShip;
 }
 
 var result = 0;
